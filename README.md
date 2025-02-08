@@ -14,7 +14,8 @@
 
 ## 文件结构
 
-- `bird_agent_generate_2.py`: 核心功能文件，负责从API获取数据、处理响应并生成候鸟问题的答案。
+- `agent/bird_agent_generate_1.py`：核心功能文件，利用相似度检索结果的记录信息、处理响应并生成候鸟问题的答案。
+- `agent/bird_agent_generate_2.py`: 核心功能文件，负责从API获取数据、处理响应并生成候鸟问题的答案。
 - `handling_functions/JSON_functions.py`: 提供了读取JSON文件和通过ID获取鸟类数据的功能。
 - `handling_functions/query_handling.py`: 提供了基于查询和向量化的CSV文件进行相似度检索的功能。
 - `RAG/embedding.py`: 负责加载BERT模型，并通过模型获取文本的嵌入表示，处理长文本，进行向量化。
